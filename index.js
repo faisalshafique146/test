@@ -5,6 +5,9 @@ const app = express()
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
+app.get('/github', (req, res) => {
+    res.send('<h1>Github</h1>')
+  })
 app.get('/twitter', (req, res) => {
     res.send("<h1>Twitter</h1>")
   })
